@@ -7,9 +7,9 @@
 
 # Git
 
-* Clone repo
+* Fork and clone repo https://github.com/blabno/pwsz-exam-git
 * Merge feature branch `feature/subtract` to master with merge commit and resolve conflict if any
-* Rebase feature branch and merge to master using `fast-forward`
+* Rebase feature branch `feature/ping-pong` and merge to master using `fast-forward`
 * Create feature branch from master, add file, commit it and merge it to master
 * `npm test` must pass
 
