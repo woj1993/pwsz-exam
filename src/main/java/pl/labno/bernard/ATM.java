@@ -10,30 +10,25 @@ public class ATM {
 
     private Bank bank;
 
-    public ATM(Bank bank)
-    {
+    public ATM(Bank bank) {
         this.bank = bank;
     }
 
-    public String getErrorMessage()
-    {
+    public String getErrorMessage() {
         return errorMessage;
     }
 
-    public void enterCard(int cardNo)
-    {
+    public void enterCard(int cardNo) {
 
         this.cardNo = cardNo;
     }
 
-    public void enterPin(int pin)
-    {
+    public void enterPin(int pin) {
 
         this.pin = pin;
     }
 
-    public int withdrawCash(int amount)
-    {
+    public int withdrawCash(int amount) {
         if (null == cardNo || null == pin) {
             throw new IllegalStateException("Pin and Card number required, prior cash withdrawal");
         }
