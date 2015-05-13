@@ -1,5 +1,7 @@
+/* global Monkey: true */
 describe('Monkey', function ()
 {
+    'use strict';
     var monkey;
     beforeEach(function ()
     {
